@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.samples.petclinic.model.ValidatorTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in org.springframework.samples.petclinic.model.ValidatorTests
+shouldNotValidateWhenFirstNameEmpty  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected size:<1> but was:<0> in:
+<[]>
+	at org.springframework.samples.petclinic.model.ValidatorTests.shouldNotValidateWhenFirstNameEmpty(ValidatorTests.java:54)
+
