@@ -4,3 +4,4 @@ jdk:
 before_install:
   - chmod +x mvnw
 install: true
+script: ./mvnw package
