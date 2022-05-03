@@ -1,6 +1,6 @@
 language: java
 jdk: 
   - openjdk8
-install: true
+install: ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   -./mvnw package
