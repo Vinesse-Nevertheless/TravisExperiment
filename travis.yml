@@ -3,5 +3,4 @@ jdk:
   - openjdk8
 script: 
   -./mvnw clean install
-  -./mvnw compile
   -./mvnw test
